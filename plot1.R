@@ -3,7 +3,7 @@
 # how many lines contain such dates. That is made reading just the first column and checking which rows
 # contain the wished dates. Then we read from the date set just the wished lines. Finally, we plot the graphic.
 
-## THIS CODE ASSUMES THAT THE FILE CONTAINING THE DATA SET IS IN WORKING DIRECTORY
+## THIS CODE ASSUMES THAT THE FILE CONTAINING THE DATA SET IS IN WORKING DIRECTORY  
 
 ## reads just the first column (containing the dates)
 table.dates <- read.table("household_power_consumption.txt", colClasses = c("character", rep("NULL", 8)), sep = ";", header = T)
